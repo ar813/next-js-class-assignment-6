@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Inter: ["Inter", "sans"],
+        Roboto: ["Roboto", "sans"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
